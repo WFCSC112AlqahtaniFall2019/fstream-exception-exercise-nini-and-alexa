@@ -19,7 +19,7 @@ int main() {
 
 
     // read table dimensions and allocate 2D array
-    cout<< "test 1"<<endl;
+    //cout<< "test 1"<<endl;
     int nRows, nCols;
     char c;
     inFile >> nRows >> nCols;
@@ -42,6 +42,7 @@ int main() {
                     string tmp;
                     inFile >> tmp;
             }
+            inFile.clear();
         }
     }
 
